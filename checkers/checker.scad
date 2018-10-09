@@ -1,12 +1,11 @@
+/*
+Print settings
+  layer height: 0.2
+*/
+
+include <variables.scad>;
+
 $fn = 50;
-BODY_RADIUS = 12.5;
-BODY_HEIGHT = 5;
-BODY_PADDING = 0.8;
-RING_WIDTH = 1.8;
-RING_HEIGHT = 1;
-RING_ROUND = 0.8;
-RING_COUNT = 4;
-RING_STEP = BODY_RADIUS / RING_COUNT;
 
 module ring(r, h, n) {
   rotate_extrude()
